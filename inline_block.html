@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>inline-block</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style rel='stylesheet' type='text/css'>
+    	body{
+			/*min-width: 500px;*/
+            margin: 0px;
+		}
+		.content{
+            border: solid 1px;
+			background-color: #8cb6c0;
+            display: inline-block;
+            margin: 0px;
+            padding: 0px;
+            width:calc(100vw/6 - 2px);
+		}
+		.margin{
+			background-color: #f9cc9d;
+            margin: 0px;
+            padding: 0px;
+		}
+    </style>
+</head>
+<body>
+    <ul class="margin">
+       <li class="content">list</li><!--
+    --><li class="content">list</li><!--
+    --><li class="content">list</li><!--
+    --><li class="content">list</li><!--
+    --><li class="content">list</li><!--
+    --><li class="content">list</li>
+    </ul>
+</body>
+</html>
